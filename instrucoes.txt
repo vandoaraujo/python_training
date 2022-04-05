@@ -1,0 +1,18 @@
+1. Crie um ambiente virtual: 
+    python3 -m venv .
+
+2. Ative o ambiente virtual: 
+    - MS Windows: \Scripts\activate.bat
+    - Linux: source bin/activate
+
+3. Rode o PIP para instalar as dependêncais: 
+    pip install -r requirements.txt
+
+4. Suba o servidor: 
+    python3 servidorHTTP.py 
+
+5. Use o cURL para enviar requests: 
+
+    a) Raiz: curl http://localhost:8080/
+    b) Usuário: curl http://localhost:8080/usuarios/fulano
+    c) POST: curl -X POST -F "usuario=beltrano" -F "senha=teste" http://localhost:8080/usuarios/incluir 
