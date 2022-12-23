@@ -101,10 +101,10 @@ def deletar_conta(id):
 
 def obter_conexao():
     conn = psycopg2.connect(
-            host="localhost",
-            database="school",
-            user="xpto",
-            password="xpto")
+           host="localhost",
+            database="dominio",
+            user="xpto2023",
+            password="Xq639*&NifQU")
     return conn
 
 if __name__ == "__main__":
